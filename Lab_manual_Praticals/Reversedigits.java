@@ -1,5 +1,7 @@
-class Reversedigits {
-    public static void main(String[] arg) {
+class Reversedigits 
+{
+    public static void main(String[] arg)
+     {
         int a = 1546, rev = 0, r;
         while (a != 0) {
             r = a % 10;
