@@ -1,4 +1,3 @@
-package Decision.and;
 import java.util.Scanner; 
 	
 public class Desion_and_Control_stm  // class name
