@@ -1,5 +1,3 @@
-  
-
 public class ACESSING_RULES
 {
 
