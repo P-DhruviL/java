@@ -4,7 +4,7 @@ public class OPRATORS
    static int a = 10;
    static int b = 5;
    static  int c = 10;
-   static int d = 7;
+   static int d = 7;    
    static int k = 9;
    
     public static void main(String[] args)
