@@ -1,4 +1,4 @@
-public class Arraymatrices {
+public class C13_Array {
     public static void main(String[] args) {
         int[][] m1 = { { 2, 2, 2 }, { 3, 4, 5 }, { 7, 8, 9 } };
         int[][] m2 = { { 1, 2, 3 }, { 6, 7, 8 }, { 1, 1, 2 } };
