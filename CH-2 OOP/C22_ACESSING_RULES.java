@@ -1,4 +1,4 @@
-public class C21_ACESSING_RULES
+public class C22_ACESSING_RULES
 {
 
     public static void main(String[] args) 
