@@ -1,11 +1,20 @@
 public class C13_Array {
-    public static void main(String[] args) {
-        int[][] m1 = { { 2, 2, 2 }, { 3, 4, 5 }, { 7, 8, 9 } };
-        int[][] m2 = { { 1, 2, 3 }, { 6, 7, 8 }, { 1, 1, 2 } };
+    public static void main(String[] args) 
+    {
+        ArrayDemo(); 
+
+        int[][] m1 = { { 2, 2, 2 },
+                       { 2, 2, 2 },
+                       { 2, 2, 2 }
+        };
+        int[][] m2 = { { 2, 2, 2 },
+                       { 2, 2, 2 },
+                       { 2, 2, 2 }
+        };
 
         int[][] sum = addMatrices(m1, m2);
 
-        System.out.println("Matrix 1:");
+        System.out.println("\n" + "Matrix 1:");
         printMatrix(m1);
 
         System.out.println("Matrix 2:");
@@ -15,8 +24,29 @@ public class C13_Array {
         printMatrix(sum);
     }
 
-    public static int[][] addMatrices(int[][] m1, int[][] m2) 
+    public static void ArrayDemo() 
     {
+
+        int[] Arrayx = { 10, 14, 17 };   
+        String[] Arrayn = { "Hello", "World" };
+
+        System.out.println("Integer Array:");   
+        for (int i : Arrayx) // (array's datatype + variable(custom) : array name)
+        {
+            System.out.print(i + " ");
+        } 
+        
+        System.out.println("\nString Array:");
+        for (String s : Arrayn) // (array's datatype + variable(custom) : array name)
+        {
+            System.out.print(s + " ");
+        }
+    
+    }
+
+    
+    public static int[][] addMatrices(int[][] m1, int[][] m2)
+     {
         int[][] result = new int[m1.length][m1[0].length];
         for (int i = 0; i < m1.length; i++)
          {
@@ -28,8 +58,8 @@ public class C13_Array {
         return result;
     }
 
-    public static void printMatrix(int[][] matrix)
-     {
+    public static void printMatrix(int[][] matrix) 
+    {
         for (int i = 0; i < matrix.length; i++) 
         {
             for (int j = 0; j < matrix[0].length; j++) 
@@ -41,3 +71,8 @@ public class C13_Array {
         System.out.println();
     }
 }
+// Array demonstrating
+
+
+  
+
