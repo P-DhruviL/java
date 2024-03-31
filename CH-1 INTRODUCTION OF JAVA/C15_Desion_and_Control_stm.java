@@ -1,10 +1,10 @@
 import java.util.Scanner; 
 	
-public class Desion_and_Control_stm  // class name
+public class C15_Desion_and_Control_stm  // class name
 {
 	int a=10;
 	int b=10;
-    public void sequntial() // method
+    public void sequntial() // method Squntial
     {
      int i = 5;
      int j = 5;
@@ -26,7 +26,7 @@ public class Desion_and_Control_stm  // class name
     		 System.out.print("both are same");
     	 }
      }
-     public void switch_stm()
+     public void switch_stm() // Switch method
      {
     	 
     	 Scanner sc1 = new Scanner(System.in);
@@ -118,7 +118,7 @@ public class Desion_and_Control_stm  // class name
             }
 
      public static void main(String[] args) {
-    	    Desion_and_Control_stm dcs1 = new Desion_and_Control_stm(); 
+    	    C15_Desion_and_Control_stm dcs1 = new C15_Desion_and_Control_stm(); 
     	    // class  object < class_name >< class_object_name > = new < class_name >
 
     	    dcs1.sequntial();

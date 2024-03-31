@@ -1,7 +1,7 @@
-public class ACESSING_RULES
+public class C22_ACESSING_RULES
 {
 
-    public static void main(String[] args)
+    public static void main(String[] args) 
     {
     	 A a1 = new A();
          a1.main();
